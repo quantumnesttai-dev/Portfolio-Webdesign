@@ -1,0 +1,178 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo{
+    /* color: ; */
+    font-size: 35px;
+    /* padding: px; */
+    font-weight: 650;
+}
+
+/* HEADER */
+.header {
+    width: 100%;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #8CA9FF;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+}
+
+/* NAV LINKS */
+.nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nav a :hover{
+    transition: 1s;
+    color : black;
+}
+
+.login-btn {
+    padding: 6px 15px;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+/* HERO SECTION */
+.hero {
+    padding: 120px 20px;
+    text-align: center;
+    background-image: url(phone\ guy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+/* button */
+.contact-btn{
+    margin-top: 20px;  
+    position: static;
+    top: 40px;        /* moves only the button down */
+    
+    padding: 12px 24px;
+    background-color: #ff4b2b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    /* margin-top: 50px; */
+    
+}
+
+
+
+
+.hero h1 {
+    font-size: clamp(30px, 5vw, 50px);
+    margin-bottom: 15px;
+    text-shadow: black;
+}
+
+.hero .hero-content p {
+    font-weight: 400px;
+}
+
+/* SERVICES SECTION */
+.services {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services h2{
+    font-size: 40px;
+}
+
+.service-boxes {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;   /* Makes responsive */
+}
+
+.box h3{
+    font-size: 20px;
+}
+
+.box {
+    width: 280px;
+    padding: 50px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+.box .contact-btn {
+    margin-top: 20px;       /* pushes button down inside box */
+    padding: 10px 20px;
+    background-color: #ff4b2b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.box p {
+    margin-top: 10px;
+}
+
+
+/* ABOUT SECTION */
+.about {
+    padding: 60px 20px;
+    text-align: center;
+    background: #f8f8f8;
+}
+
+.about p{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+    /* margin-top: 40px; */
+}
+
+/* MOBILE RESPONSIVE */
+@media(max-width: 768px) {
+
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav {
+        margin-top: 10px;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
